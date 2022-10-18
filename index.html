@@ -13,27 +13,33 @@
         <header>
             <h1>Hello World ! Bienvenue à Eden School !</h1>
             <nav>
-                <a href="#">L'intégration (front)</a>
-                <a href="#">Le développement (backend)</a>
-                <a href="#">Un peu de CSS</a>
+                <a href="#integration">L'intégration (front)</a>
+                <a href="#dev">Le développement (backend)</a>
+                <a href="#css">Un peu de CSS</a>
             </nav>
         </header>
 
         <main>
             <h2>Au cours de cette année nous allons avoir 2 matières :</h2>
-            <h3>L'intégration</h3>
+            <h3 id="integration">L'intégration</h3>
+
             <h4>Le HTML :</h4>
             <img src="img/html.png" alt="html">
             <p>Le HTML sert à créer le contenu et la structure du site : elle va contenir uniquement la partie textuelle du site.</p>
+
             <h4>Le CSS :</h4>
             <img src="img/css.jpg" alt="css">
             <p>Le CSS va nous permettre d'ajouter une mise en forme à notre site : les couleurs, les formes, le fond, etc.</p>
-            <h3>Le développement</h3>
+
+            <h3 id="dev">Le développement</h3>
+
             <h4>Le Javascript :</h4>
             <img src="img/js.jpg" alt="javascript">
             <p>Javascript est un langage de programmation de script employé pour rendre une page web interactive. Le comportement de la page et son apparence pourront varier en fonction de certains paramètres.</p>
             <hr>
-            <h2>Et ici, nous allons un peu jouer avec la CSS !</h2>
+
+            <h2 id="css">Et ici, nous allons un peu jouer avec la CSS !</h2>
+
             <ul>
                 <li>Les couleurs du texte : <span>Et ma police est Arial !</span></li>
             </ul>
@@ -54,7 +60,8 @@
         </main>
 
         <footer>
-
+            <img src="img/EdenSchool.png" alt="EdenSchool">
+            <small>copyright Eden School</small>
         </footer>
 
         <script src="js/app.js"></script>
